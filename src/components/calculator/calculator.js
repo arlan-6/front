@@ -2,13 +2,14 @@ import React, { useState } from "react";
 // import Buttonn from "./buttons/buttons";
 import "./calculator.css";
 
-function Calculator() {
+function Calculator({ changeData }) {
   const [valuee, setValue] = useState("");
 
   const handleButtonClick = (e) => {
     const value = e.target.value;
     if (value === "=") {
       setValue(eval(valuee));
+      changeData(eval(valuee));
     } else if (value === "C") {
       setValue("");
     } else {

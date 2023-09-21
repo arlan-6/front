@@ -2,6 +2,7 @@
     background-color: rgb(175, 237, 237);
     width: 700px;
     height: 800px;
+    float: left;
 }
 .input{
     width: 85%;

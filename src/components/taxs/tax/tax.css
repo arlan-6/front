@@ -1,0 +1,15 @@
+.tax{
+    background-color: aquamarine;
+    border-radius: 10px;
+    animation: an .3s ease ;
+    height: 150px;
+    margin-bottom: 50px;
+}
+@keyframes an {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 150px;
+    }
+}
