@@ -1,0 +1,44 @@
+.calc{
+    background-color: rgb(175, 237, 237);
+    width: 700px;
+    height: 800px;
+}
+.input{
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 30px 10px;
+    text-align: right;
+    outline: none;
+}
+
+.buttons{
+    padding: 30px 150px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.button{
+    background-color: rgb(115, 192, 237);
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 1.7em;
+    margin: 5px;
+    transition: .3s;
+    cursor: pointer;
+    user-select: none;
+}
+.button:hover{
+    background-color: rgb(44, 107, 144);
+    transition: .3s;
+}
+.equals{
+    width: 390px;
+}
